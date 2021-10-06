@@ -1,0 +1,364 @@
+@font-face {
+	font-family: 'BPGArial2010';
+	src: url('../fonts/BPGArial2010.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BPGArial2010.woff') format('woff'),
+	url('../fonts/BPGArial2010.ttf')  format('truetype'),
+	url('../fonts/BPGArial2010.svg#BPGArial2010') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+10D0-10F0;
+}
+
+@font-face {
+	font-family: 'BPGArialCaps2010';
+	src: url('../fonts/BPGArialCaps2010.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BPGArialCaps2010.woff') format('woff'),
+	url('../fonts/BPGArialCaps2010.ttf')  format('truetype'),
+	url('../fonts/BPGArialCaps2010.svg#BPGArialCaps2010') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+10D0-10F0;
+}
+
+@font-face {
+	font-family: 'Datebashvili';
+	src: url('../fonts/hinted-Datebashvili.eot');
+	src: url('../fonts/hinted-Datebashvili.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/hinted-Datebashvili.woff2') format('woff2'),
+	url('../fonts/hinted-Datebashvili.woff') format('woff'),
+	url('../fonts/hinted-Datebashvili.ttf') format('truetype'),
+	url('../fonts/hinted-Datebashvili.svg#Datebashvili') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'gpbMtavruliBold';
+	src: url('../fonts/gpbMtavruliBold.woff2') format('woff2'),
+	url('../fonts/gpbMtavruliBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: '! BPG GEL';
+	src: url('../fonts/hinted-BPGGEL.eot');
+	src: local('! BPG GEL'), local('!BPGGEL'),
+	url('../fonts/hinted-BPGGEL.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/hinted-BPGGEL.woff') format('woff'),
+	url('../fonts/hinted-BPGGEL.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+body{
+    background: #0a050c url(../img/main-bk.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    color: white;
+    padding: 3rem ;
+}
+.content{
+    margin: 0 auto;
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-section{
+    padding-bottom: 4rem;
+}
+.title{
+    
+    font-size: 4.2rem;
+    max-width: 1250px;
+    width: 100%;
+  
+
+}
+.title span{
+    display: block;
+    font-family: 'gpbMtavruliBold';
+    text-align: center;
+}
+.title span:first-child{
+    color: #ffddbb;;
+    margin-bottom: 0.7rem;
+}
+.freebet{
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'gpbMtavruliBold';
+    
+}
+.header-img{
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+}
+.text{
+    margin-bottom: 0.5rem;
+}
+
+.date-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-family: 'BPGArialCaps2010';
+    padding: 1.5rem 0;
+}
+.date-time p{
+    font-size: 1rem;
+    padding: 0 1rem;
+
+}
+.date-time span{
+    display: block;
+    font-size: 2rem;
+   
+}
+.date-time p:first-child{
+    text-align: right;
+    justify-content:center;
+    justify-content: flex-end;
+}
+.date-time p:last-child{
+    text-align: left;
+    justify-content:center;
+    justify-content: flex-start;
+}
+
+.date-time p:not(.time){
+ display:flex;
+ align-items:center;
+ flex: 1;
+}
+
+.sub-title{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'gpbMtavruliBold';
+    margin-top: 3rem;
+}
+
+
+.line::before{
+    content: "";
+    border-top:2px solid grey;
+    display: block;
+    max-width: 907px;
+    margin: 0 auto 1rem;
+}
+.line::after{
+    content: "";
+    border-top:2px solid grey;
+    display: block;
+    max-width: 545px;
+    margin: 1rem auto 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'gpbMtavruliBold';
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.box-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 2rem 1rem ;
+    transition: all 0.2s linear;
+    
+}
+.img-part{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #000  url(../img/ring.png) no-repeat center;
+    background-size: 100% 100%;
+   
+}
+.img-text{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    line-height: 1.2rem;
+}
+
+.box-item:hover{
+    transform: translateZ(0) scale(1.1);
+    
+}
+.bet{
+    background: url(../img/btn.png) no-repeat center;
+    background-size: 100% 100%;
+    margin: 0 auto 8rem;
+    background-color: #14070E;
+    border-radius: 40px;
+    font-size: 1.6rem;
+    padding:1.5rem 2rem;
+    display: table;
+    font-family: 'gpbMtavruliBold', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+.bet-text{
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-family: 'gpbMtavruliBold', sans-serif;
+    margin-top: 3rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.date-box{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'gpbMtavruliBold', sans-serif;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto 3rem;
+    transition: all 0.2s linear;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.date:hover{
+    transform: scale(1.1) translateZ(0);
+}
+.date p:first-child{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffddbb;
+}
+.date p:last-child{
+    font-size: 1rem;
+}
+
+.first-question{
+    border: 1px solid white;
+    border-radius: 50px;
+    display: table;
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto 4rem;
+    color: #ffddbb;
+    font-family: 'gpbMtavruliBold', sans-serif;
+}
+.first-question:hover{
+
+    cursor: pointer;
+    color: #fde4cc;
+}
+
+.first-answer{
+    margin: 0 auto 4rem;
+    max-width: 1000px;
+    width: 90%;
+    
+}
+
+.color{
+    color: #ffddbb;
+    font-size: 1.2rem;
+    padding: 1rem 0 0.5rem 0;
+    line-height: 1.4rem;
+    font-family: 'gpbMtavruliBold', sans-serif;
+
+
+
+}
+
+.color:hover{
+    cursor: pointer;
+    color: white;
+}
+.square{
+    line-height: 1.4rem;
+    margin-left: 1.5rem;
+    color: #eee8e8;
+    font-size: 1.2rem;
+    padding: 1rem 0 1rem 0;
+    font-family: 'gpbMtavruliBold', sans-serif;
+    position: relative;
+    font-size: 1rem;
+    
+
+}
+.square:hover{
+    cursor: pointer;
+    color: white;
+}
+.square::before{
+    position: absolute;
+    content: "";
+    display: block;
+    height:1rem;
+    width: 0.5rem;
+    top: 1rem;
+    left: -1.5rem;
+    background-color: #ffddbb;
+}
+
+.slot-img{
+    margin: 0 auto 5rem;
+    width: 100%;
+    display: block;
+    max-width: 600px;
+}
+
+
+
+
+html,body{
+    font-size: 16px;
+}
+
+@media (max-width:1250px) {
+    
+    html,body{
+        font-size: 14px;
+    }
+}
+@media (max-width:1050px) {
+    
+    html,body{
+        font-size: 12px;
+    }
+}
+@media (max-width:600px) {
+    
+    html,body{
+        font-size: 10px;
+    }
+}
